@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-image: url(../images/adventure.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-table {
+    margin-left: 0px;
+}
+
+.f1 {
+    background-color: rgb(163, 222, 215, 0.7);
+    border-radius: 5px;
+    margin: 100px;
+    padding: 20px;
+}
+
+legend{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+label {
+    font-weight: bold;
+}
+
+.spaces {
+    width: 200px;
+    height: 30px;
+}
+
+#title, #types {
+    height: 25px;
+    width: 200px;
+}
+
+td {
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+
+#msg {
+    padding-bottom: 100px;
+    padding-right: 500px;
+}
+
+.Ibutton button, .Ibutton input{
+    font-size: larger;
+    background-color: teal;
+    color: white;
+    font-weight: 900;
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Ibutton button:hover, .Ibutton input:hover{
+    background-color: #d3bdb0;
+    color: rgb(0, 0, 0);
+}

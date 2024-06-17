@@ -1,0 +1,80 @@
+/* IT22196460
+U.U.M.Hewage */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+/********************  body   *********************************/
+
+
+.background{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #99EDC3;
+}
+
+#nothing{
+    margin-top: 139px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.buttonContainer button {
+  display: block;
+  width: 100%;
+  padding: 15px 32px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: #297373;
+  color: #99EDC3;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tabContainer .tabPanel{
+  height: 85%;
+  background-color: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 105px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 22px;
+  display: none;
+}
+
+.tabPanel p{
+  text-align: left;
+  font-size: 19px;
+  padding: 50px 15px 5px;
+}
+
+.tabPanel img{
+  border-radius: 10%;
+  box-shadow: 0 0 1em 10px black;
+  margin-top: 30px;
+  height: 400px;
+  width: 600px;
+}
+
+.tabPanel h1{
+  flex: 50%;
+  display: 30px 30px;
+  font-size: 60px;
+  text-shadow: 2px 12px 5px #297373;
+}

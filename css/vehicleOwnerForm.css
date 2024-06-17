@@ -1,0 +1,59 @@
+/* IT22586766
+K. S. D. Koralage */
+body{
+    margin: auto;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-image: url(../images/wedding_car.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#vehicleForm{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#vehicleForm h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vfSet{
+    margin: 40px 0 30px 0;
+    border: none;
+    outline: none;
+    background-color: #d3bdb0b3;
+    padding: 50px 80px 50px 80px;
+    border-radius: 15px;
+}
+
+.vfSet label{
+    font-size:  20px;
+    margin-top: 15px;
+}
+
+.vfSet input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.vfSet legend{
+    font-size: 30px;
+    color: teal;
+    font-weight: 800;
+}
+
+#vForm button{
+    font-size: 20px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 60px auto 100px auto;
+    display: block;
+}

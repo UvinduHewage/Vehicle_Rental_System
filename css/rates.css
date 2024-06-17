@@ -1,0 +1,82 @@
+/* IT22586766
+K. S. D. Koralage */
+body{
+    margin: auto;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background: linear-gradient(rgba(26, 26, 26, 0.9), rgba(101, 101, 101, 0.6)), url('../images/Vrate.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#rateButton {
+    float: right;
+    margin: 40px 0 40px 0;
+    background-color: teal;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 0 0 20px;
+}
+
+#rateButton a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+}
+#rateButton a:hover , #rateButton a:active{
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0;
+}
+
+#rateTopic{
+    padding: 50px;
+    margin: auto;
+    color: ivory;
+}
+
+#rateTable{
+    margin: auto;
+    border: none;
+    border-collapse: collapse;
+}
+
+#rateTable tr th{
+    border: 3px ridge ivory;
+    padding: 10px;
+    font-size: large;
+    background-color: rgba(240, 255, 255, 0.8);
+}
+
+#rateTable tr td{
+    font-size: large;
+    padding: 13px 13px 13px 17px;
+    background-color: rgba(212, 212, 212, 0.8);
+    border-bottom: 1px solid ivory;
+}
+
+#rateTable tr:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+#submitInquiry{
+    float: left;
+    margin: 10px 0 40px 0;
+    background-color: rgb(1, 146, 146);
+    padding: 10px 30px 10px 30px;
+    border-radius:0 20px 20px 0;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#submitInquiry:hover , #submitInquiry:active{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#tearms{
+    background-color: rgb(211, 189, 176, 0.9);
+    margin: 80px auto 40px auto;
+    padding: 30px;
+}

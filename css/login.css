@@ -1,0 +1,98 @@
+/*IT22558114
+Piyarathna R.S.*/
+
+body {
+  background-image: url(../images/backgroundnew.jpg);
+  font-family: 'Nunito', sans-serif;
+}
+
+.loginForm {
+  width: 35%;
+  margin: 50px 30% ;
+  margin-top: 50px;
+  padding: 0;
+  display: table;
+  position: relative;
+  float:center;
+	background-color: #c4e1f1;
+	padding: 30px ;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 2px grey;
+	line-height: 100%;
+	z-index: 8;
+  }
+
+.loginForm .formContent {
+    margin-bottom:0px;
+}
+
+h1{
+  color: #008080;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  letter-spacing: 1px;
+}
+
+label.headerNew {
+  font-size: 16px;
+  font-weight: 500;
+  width: 215px;
+  color: #008080;
+  text-align:justify;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+span.newAcc {
+  font-size: 16px;
+  font-weight: 500;
+  color: #008080;
+  letter-spacing: 1px;
+  margin-left: 120px;
+}
+
+form input {
+    padding:0 40px;
+    width:40%;
+    height:55px;
+    border: 1px solid #008080;
+    color: grey;
+    text-align:justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight:normal;
+    border-radius:20px;
+    margin-bottom: 50px;
+    margin-left: 120px;
+}
+
+form input:focus {
+  border:1px solid #78bebe;
+}
+
+.subButton {
+  background-color: #008080;
+  width: 50%;
+  height: 55px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+  margin-left: 135px;
+}
+
+.subButton:hover {
+
+  background-color: #0b3131;
+  color:#fff;
+}

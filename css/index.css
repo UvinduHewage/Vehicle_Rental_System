@@ -1,0 +1,169 @@
+/* IT22586766
+K. S. D. Koralage */
+body{
+    margin: auto;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-image: url(../images/backgroundnew.jpg);
+    background-attachment: fixed;
+}
+
+#searchingPart{
+    background-image: url(../images/homepic.jpg);
+    background-size: 100% 100%;
+}
+
+#heading{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    color: rgb(62, 128, 118);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#searchForm table, #searchForm td{
+    border: 6px solid yellow;
+    border-radius: 20px;
+}
+
+#searchForm table{
+    background-color:yellow;
+    margin: 50px auto 50px auto;
+}
+
+#searchForm td{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#searchForm input{
+   border: none;
+   cursor: pointer;
+}
+
+#searchIcon, #location{
+    float: left;
+}
+
+#searchIcon{
+    font-size: 20px;
+}
+
+#searchsubmit input{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#vehicleRegisterLink{
+    font-size: 43px;
+    text-align: center;
+    font-weight:bolder;
+    padding: 100px 0 100px 0;
+    background-color: teal;
+}
+
+#vehicleRegisterLink a{
+    text-decoration: none;
+    color:#99edc3;
+    background-color: transparent;
+}
+
+#slideshow{
+    width: 100%;
+    display:block;
+    height: 1000px;
+    position: relative;
+}
+
+.SHimage{
+    display: none;
+}
+
+.SHimage img{
+    width:100%;
+    height:1000px;
+    position: absolute;;
+}
+
+.slideCaption{
+    position:absolute;
+    font-size:35px;
+    color: rgb(38, 38, 38);
+    margin: auto;
+    bottom: 100px;
+    background-color: #d3bdb080;
+}
+
+#prev, #next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#img1{grid-area: 1/1/2/2;}
+
+#quote1{grid-area:1/2/2/3 ;}
+
+#img2{grid-area:2/3/3/4 ;}
+
+#quote2{grid-area:2/4/3/5 ;}
+
+#img3{grid-area:3/1/4/2 ;}
+
+#quote3{grid-area:3/2/4/3 ;}
+
+#img4{grid-area: 4/3/5/4;}
+
+#quote4{grid-area: 4/4/5/5;}
+
+#aboutBottom{
+    display: grid;
+    justify-content: center;
+    margin: 100px auto 100px auto;
+    grid-template-columns: 100px 400px 100px 400px;
+}
+
+#img1 img, #img2 img, #img3 img, #img4 img{
+    width: 100%;
+}
+
+#quote1 span, #quote2 span, #quote3 span, #quote4 span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#aboutBottom div{
+    padding: 10px;
+}
+
+#learnmore{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: teal;
+    color: #d3bdb0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 70px auto;
+}
